@@ -9,7 +9,7 @@
 /***************************** Include Files *******************************/
 
 #include "vga_periph_mem.h"
-Xuint32 cursor_position;
+
 /************************** Function Definitions ***************************/
 
 void set_cursor(Xuint32 new_value){
@@ -22,6 +22,8 @@ void clear_text_screen(Xuint32 BaseAddress){
 		VGA_PERIPH_MEM_mWriteMemory(BaseAddress + TEXT_MEM_OFF + i*4, 0x20);
 	}
 }
+
+
 
 void print_string(Xuint32 BaseAddress, unsigned char string_s[], int lenght){
 	int i;

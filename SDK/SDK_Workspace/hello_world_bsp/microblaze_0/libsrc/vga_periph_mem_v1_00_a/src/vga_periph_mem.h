@@ -65,6 +65,8 @@
  * @note    Self test may fail if data memory and device are not on the same bus.
  *
  */
+
+Xuint32 cursor_position;
 XStatus VGA_PERIPH_MEM_SelfTest(void * baseaddr_p);
 
 void set_cursor(Xuint32 new_value);
@@ -74,5 +76,6 @@ void clear_text_screen(Xuint32 BaseAddress);
 
 void draw_square(Xuint32 BaseAddress);
 void print_string(Xuint32 BaseAddress, unsigned char string_s[], int lenght);
+
 
 #endif /** VGA_PERIPH_MEM_H */
