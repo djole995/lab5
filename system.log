@@ -27,3 +27,12 @@ rm -f simgen.log
 rm -f __xps/ise/_xmsgs/simgen.xmsgs
 rm -f _impact.cmd
 Done!
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.6 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Writing filter settings....
+Done writing filter settings to:
+	D:\lab5\etc\system.filters
+Done writing Tab View settings to:
+	D:\lab5\etc\system.gui

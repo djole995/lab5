@@ -139,3 +139,88 @@
 10:36:10.473 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
 09:46:30.760 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
 10:16:19.306 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+10:28:43.048 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+10:28:43.141 ERROR - Unable to read in MSS file D:\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+10:31:17.085 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:32:46.649 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:26:15.758 INFO  - Processing command line option -hwspec C:\materija\Ra28-2014\lab5\SDK\SDK_Export\hw\system.xml. 
+11:26:20.812 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+11:26:26.803 INFO  - Copied contents of C:\materija\Ra28-2014\lab5\SDK\SDK_Export\hw\system.bit into \basic_system_hw_platform\system.bit. 
+11:26:26.803 INFO  - Copied contents of C:\materija\Ra28-2014\lab5\SDK\SDK_Export\hw\system_bd.bmm into \basic_system_hw_platform\system_bd.bmm. 
+07:49:02.315 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+07:49:27.412 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:01:17.425 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:04:11.958 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:04:50.450 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:06:08.975 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:06:31.940 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:06:56.542 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:07:15.144 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:09:04.264 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:09:29.708 WARN  - Terminating existing sessions on processor microblaze_0 
+08:09:31.009 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:14:39.909 WARN  - Terminating existing sessions on processor microblaze_0 
+08:14:41.255 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:15:39.071 WARN  - Terminating existing sessions on processor microblaze_0 
+08:15:40.418 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:17:20.059 WARN  - Terminating existing sessions on processor microblaze_0 
+08:17:21.458 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:18:24.136 WARN  - Terminating existing sessions on processor microblaze_0 
+08:18:25.521 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:19:15.533 WARN  - Terminating existing sessions on processor microblaze_0 
+08:19:16.875 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:19:58.567 WARN  - Terminating existing sessions on processor microblaze_0 
+08:19:59.906 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:21:59.274 WARN  - Terminating existing sessions on processor microblaze_0 
+08:22:00.643 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:22:20.753 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:22:44.505 WARN  - Terminating existing sessions on processor microblaze_0 
+08:22:45.841 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:23:27.929 WARN  - Terminating existing sessions on processor microblaze_0 
+08:23:29.263 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:24:02.086 WARN  - Terminating existing sessions on processor microblaze_0 
+08:24:03.481 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:25:14.888 WARN  - Terminating existing sessions on processor microblaze_0 
+08:25:16.134 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:25:19.529 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+08:25:23.128 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+08:25:28.909 WARN  - Terminating existing sessions on processor microblaze_0 
+08:25:42.358 WARN  - Terminating existing sessions on processor microblaze_0 
+08:25:52.355 WARN  - Terminating existing sessions on processor microblaze_0 
+08:26:10.359 WARN  - Terminating existing sessions on processor microblaze_0 
+08:26:22.714 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+08:26:43.043 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:27:27.313 WARN  - Terminating existing sessions on processor microblaze_0 
+08:27:28.553 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:27:35.673 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+08:27:43.920 WARN  - Terminating existing sessions on processor microblaze_0 
+08:27:50.404 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+08:27:51.806 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+08:27:59.388 WARN  - Terminating existing sessions on processor microblaze_0 
+08:28:03.695 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+08:28:22.686 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:29:27.675 WARN  - Terminating existing sessions on processor microblaze_0 
+08:29:29.029 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:30:27.543 WARN  - Terminating existing sessions on processor microblaze_0 
+08:30:28.773 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:30:34.401 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+08:30:36.903 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+08:30:40.455 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

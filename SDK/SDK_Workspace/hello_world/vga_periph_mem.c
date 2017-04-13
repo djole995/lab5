@@ -46,7 +46,7 @@ void draw_square(Xuint32 BaseAddress){
 		for (j = 0; j < 480; j++){
 			for (k = 0; k<(640/32); k++){
 				i = j*(640/32) + k;
-				if ((j > 200) && (j < 280) && (k > 8) && (k < 12)) {
+				if ((j > 200) && (j < 400) && (k > 8) && (k < 12)) {
 					VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0xFFFFFFFF);
 				}
 				else{
@@ -54,4 +54,26 @@ void draw_square(Xuint32 BaseAddress){
 				}
 			}
 		}
+}
+
+void draw_square2(Xuint32 BaseAddress, int size){
+	int i, j, k, m, nope, br=800;
+		for (j = 0; j < 480; j++){
+			for (k = 0; k<(640/32); k++){
+				i = j*(640/32) + k;
+				if ((j > 200+(200-size)/2) && (j < 200+size)/*(200-size)/2+size)*/ && (k > 8/*+(4-size/32)/2*/) && (k < /*(4-size/32)/2+*/8+size/32)) {
+					/*for(m = 80000000; m < 0xFFFFFFFF; m |= br)
+					{*/
+						VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0xFFFFFFFF/*m*/);
+						//for(nope = 0; nope < 100000; nope++);
+						//br = br << 1;
+					//}
+				}
+				else{
+					VGA_PERIPH_MEM_mWriteMemory(BaseAddress + GRAPHICS_MEM_OFF + i*4, 0x0);
+				}
+			}
+		}
+
+		for(j = 0; j < 1500000; j++);
 }
