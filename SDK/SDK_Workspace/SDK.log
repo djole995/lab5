@@ -224,3 +224,33 @@
 	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
 
 08:30:40.455 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+08:31:06.331 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:31:47.885 WARN  - Terminating existing sessions on processor microblaze_0 
+08:31:49.122 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:32:22.561 WARN  - Terminating existing sessions on processor microblaze_0 
+08:32:23.806 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:32:54.878 WARN  - Terminating existing sessions on processor microblaze_0 
+08:32:56.112 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:35:50.225 WARN  - Terminating existing sessions on processor microblaze_0 
+08:35:51.524 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:38:40.710 WARN  - Terminating existing sessions on processor microblaze_0 
+08:38:41.823 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:39:27.041 WARN  - Terminating existing sessions on processor microblaze_0 
+08:39:28.245 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:40:15.628 WARN  - Terminating existing sessions on processor microblaze_0 
+08:40:17.013 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:43:14.086 WARN  - Terminating existing sessions on processor microblaze_0 
+08:43:15.286 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:48:03.972 WARN  - Terminating existing sessions on processor microblaze_0 
+08:48:05.172 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:48:29.048 WARN  - Terminating existing sessions on processor microblaze_0 
+08:48:30.401 INFO  - FPGA configured successfully with bitstream "D:/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+08:52:43.049 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+08:52:43.078 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+08:52:43.082 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 

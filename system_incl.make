@@ -120,11 +120,6 @@ C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl
 C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy_f.vhd \
 C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate_f.vhd \
 C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/soft_reset.vhd \
-C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/address_decoder.vhd \
-C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/slave_attachment.vhd \
-C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/axi_lite_ipif.vhd \
-pcores/my_peripheral_v1_00_a/hdl/vhdl/user_logic.vhd \
-pcores/my_peripheral_v1_00_a/hdl/vhdl/my_peripheral.vhd \
 C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_slave_burst_v1_00_a/hdl/vhdl/control_state_machine.vhd \
 C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_slave_burst_v1_00_a/hdl/vhdl/read_data_path.vhd \
 C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_slave_burst_v1_00_a/hdl/vhdl/address_decode.vhd \
@@ -141,9 +136,16 @@ pcores/vga_periph_mem_v1_00_a/hdl/vhdl/graphics_mem.vhd \
 pcores/vga_periph_mem_v1_00_a/hdl/vhdl/text_mem.vhd \
 pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga.vhd \
 pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_sync.vhd \
-pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_top.vhd
+pcores/vga_periph_mem_v1_00_a/hdl/vhdl/vga_top.vhd \
+C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/address_decoder.vhd \
+C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/slave_attachment.vhd \
+C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/axi_lite_ipif.vhd \
+pcores/my_peripheral_v1_00_a/hdl/vhdl/user_logic.vhd \
+pcores/my_peripheral_v1_00_a/hdl/vhdl/my_peripheral.vhd
 
-WRAPPER_NGC_FILES = implementation/system_proc_sys_reset_0_wrapper.ngc \
+WRAPPER_NGC_FILES = implementation/system_vga_periph_mem_0_wrapper.ngc \
+implementation/system_proc_sys_reset_0_wrapper.ngc \
+implementation/system_my_peripheral_0_wrapper.ngc \
 implementation/system_microblaze_0_ilmb_wrapper.ngc \
 implementation/system_microblaze_0_i_bram_ctrl_wrapper.ngc \
 implementation/system_microblaze_0_dlmb_wrapper.ngc \
@@ -154,8 +156,7 @@ implementation/system_debug_module_wrapper.ngc \
 implementation/system_clock_generator_0_wrapper.ngc \
 implementation/system_axi4lite_0_wrapper.ngc \
 implementation/system_rs232_wrapper.ngc \
-implementation/system_my_peripheral_0_wrapper.ngc \
-implementation/system_vga_periph_mem_0_wrapper.ngc
+implementation/system_axi_intc_0_wrapper.ngc
 
 POSTSYN_NETLIST = implementation/$(SYSTEM).ngc
 

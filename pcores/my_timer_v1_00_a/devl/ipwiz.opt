@@ -1,0 +1,9 @@
+-batch 
+-create my_timer 
+-ver 1.00.a 
+-dir "D:\lab5" 
+-lang vhdl 
+-bus axi4lite s 
+-reg 4 
+-xps 
+-driver 
